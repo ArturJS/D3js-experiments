@@ -1,0 +1,20 @@
+{
+  "name": "simple-data-binding",
+  "authors": [
+    "ArturN"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "d3": "^4.3.0"
+  }
+}
