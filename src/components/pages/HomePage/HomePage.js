@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import './HomePage.scss';
 import FirstBarChart from '../../common/FirstBarChart';
 import SimpleDataBinding from '../../common/SimpleDataBinding';
+import RoundSlider from '../../common/RoundSlider';
 
 export default class HomePage extends Component {
   render() {
@@ -14,7 +15,7 @@ export default class HomePage extends Component {
           <SimpleDataBinding/>
         </div>
         <div className="demo-panel">
-          <FirstBarChart/>
+          <RoundSlider/>
         </div>
       </div>
     );
