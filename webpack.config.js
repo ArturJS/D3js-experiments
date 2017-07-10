@@ -45,6 +45,7 @@ const common = {
 
       {
         test: /\.jsx?$/,
+        exclude: /node_modules/,
         loaders: [
           {
             loader: 'react-hot-loader'
